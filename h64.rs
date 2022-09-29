@@ -80,7 +80,7 @@ impl H64Allocator
 ///
 /// This hasher only implements [`write_u64`].
 /// The implementation is the identity function.
-/// Its use improves hashing performance by 100%.
+/// Its use improves hashing performance by ∞%.
 ///
 /// [`write_u64`]: `Self::write_u64`
 #[derive(Default)]
